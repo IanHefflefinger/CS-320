@@ -5,7 +5,7 @@ This repo contains the project we have worked on throughout this course. It incl
 
 * How can I ensure that my code, program, or software is functional and secure?
 
-When using Java, it is important to ensiure that methods and variables are declared correctly - this means making sure that variables and methods that should not be used by other classes are declared as private. As a general safety precaution, it is best to use getters and setters (methods) to update private variables. Secure software prevents access from parties that are not essential to the function of the program - the principle of least privilidge applies to software components as well as individuals. 
+When using Java, it is important to ensure that methods and variables are declared correctly - this means making sure that variables and methods that should not be used by other classes are declared as private. As a general safety precaution, it is best to use getters and setters (methods) to update private variables. Secure software prevents access from parties that are not essential to the function of the program - the principle of least privilidge applies to software components as well as individuals. 
 
 Functionality is generally easy to test, initially - run it and see if it works as expected. After verifying that code works as expected, it's best to see if it can be run NOT as expected - this is where software testing comes in. Testing various parameters in different ways gives us an idea of the vulnerabilities that might exist in the code. We should also test to get an idea of the coverage of our testing - once reasonably covered, we can be more sure of our code or we can take the opportunity to refine our tests further to avoid any mistakes that could have been overlooked. 
 
